@@ -1,5 +1,5 @@
 {
-  "name": "github",
+  "name": "keepitfresh",
   "version": "1.0.0",
   "description": "Grocery list expiry tracker application",
   "main": "backend/server.js",
