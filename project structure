@@ -1,0 +1,41 @@
+test2/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── chatbotController.js
+│   │   └── groceryController.js
+|   |    └── ocrController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Grocery.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── chatbotRoutes.js
+│   │   └── groceryRoutes.js
+|   |    └── ocrRoutes.js
+│   ├── middleware/
+│   │   └── auth.js
+│   |
+│   └── server.js
+├── frontend/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── login.css
+│   │   └── register.css
+│   │   └── chatbot.css
+│   │   └── ocr.css
+│   ├── js/
+│   │   ├── auth.js
+│   │   └── grocery.js
+│   |   └── chatbot.js
+│   |   └── ocr.js
+│   └── pages/
+│       ├── index.html
+│       ├── login.html
+│       ├── register.html
+│       └── home.html
+|       └── ocr.html
+└── package.json
+|__ .env
